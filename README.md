@@ -16,6 +16,8 @@ pipeline/
 ├── step2_Aggregation/
 ├── step3_Elastic_Registration/
 └── step4_representation/
+└── Visualization/
+
 step0_Neighborhood Coord_1mm/
 
 This step generates local neighborhood coordinates around atlas streamline points.
@@ -51,6 +53,10 @@ step4_representation/
 This step derives final CBSS representations from aligned profiles.
 
 These representations may include profile means, maximum values, PCA scores, or other fiber-wise/network-wise features used for statistical modelling, prediction, heritability analysis, and visualization.
+
+Visualization/
+
+Scripts for generating figures, atlas visualizations, network-level plots, fiber-profile plots, and other graphical summaries.
 
 ## 2. template/
 
@@ -106,7 +112,7 @@ Analysis/
 ├── Lifespan/
 ├── Prediction/
 ├── SC_FC/
-└── Visualization/
+
 Aging/
 
 Scripts for aging-related analyses, including age-associated white-matter changes, older-adult effects, and disease-relevant structural-connectivity patterns.
@@ -129,9 +135,6 @@ Scripts for structure-function coupling analyses.
 
 This folder is used to evaluate how CBSS-derived structural connectivity features relate to functional connectivity patterns, including SC-to-FC prediction or network-pair correspondence analyses.
 
-Visualization/
-
-Scripts for generating figures, atlas visualizations, network-level plots, fiber-profile plots, and other graphical summaries.
 
 Typical Workflow
 
