@@ -1,4 +1,10 @@
-# **Custom Code for the Image Data Processing and Analysis Pipeline of Connectome-Based Spatial Statistics**
+# **Connectome-Based Spatial Statistics**
+
+This is the custom Code for the Image Data Processing and Analysis Pipeline of Connectome-Based Spatial Statistics.
+Please cite the following paper if you use this code:
+Li, T., Wang, X., Cole, M., Sun, Z., Jiang, Z., Qian, X., Gao, S., Luo, T., Descoteaux, M., Stein, J.L. and Wang, X., 2026. Connectome-based spatial statistics enabling large-scale population analyses of human connectome across cohorts. bioRxiv, pp.2026-04. 
+DOI: 10.64898/2026.04.09.717492
+PMID: 41993545
 
 ## 1. pipeline/
 
