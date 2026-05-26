@@ -1,6 +1,6 @@
 # **Custom Code for the Image Data Processing and Analysis Pipeline of Connectome-Based Spatial Statistics**
 
-1. pipeline/
+## 1. pipeline/
 
 The pipeline/ folder contains the main processing scripts for constructing fiber-wise and point-wise diffusion representations from subject-level diffusion MRI maps.
 
@@ -46,7 +46,7 @@ This step derives final CBSS representations from aligned profiles.
 
 These representations may include profile means, maximum values, PCA scores, or other fiber-wise/network-wise features used for statistical modelling, prediction, heritability analysis, and visualization.
 
-2. template/
+## 2. template/
 
 The template/ folder contains atlas and reference files required by the CBSS pipeline.
 
@@ -91,7 +91,7 @@ MATLAB file containing cleaned and merged ROI identifiers.
 
 This file supports mapping fibers or endpoints to anatomical/functional regions.
 
-3. Analysis/
+## 3. Analysis/
 
 The Analysis/ folder contains downstream statistical analysis and visualization scripts.
 
