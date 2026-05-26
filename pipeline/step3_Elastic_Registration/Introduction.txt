@@ -1,0 +1,9 @@
+This step is optional; it further refines the population-level pathway correspondance through the elastic registration.
+which can slightly improve the heritability or reliability.
+
+step1: step31_pre
+will randomly sample 300 subjects to generate the mean fiber FA profile curve.
+step2: step32_parallel_KarcherMean
+will generate the Karcher Mean FA curve for each of the 6090 pathways based on 300 randomly selected subject FA profiles.
+step3: step33_parallel_reg_phase12_Lambda or step33_parallel_reg_phase4_Lambda.m
+will register individual subject FA profiles to the Karcher mean for 6090 pathways, with regularization parameters selected according to reliability or heritability (default).
