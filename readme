@@ -1,3 +1,5 @@
+# **Custom Code for the Image Data Processing and Analysis Pipeline of Connectome-Based Spatial Statistics**
+
 1. pipeline/
 
 The pipeline/ folder contains the main processing scripts for constructing fiber-wise and point-wise diffusion representations from subject-level diffusion MRI maps.
